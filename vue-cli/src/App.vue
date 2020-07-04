@@ -1,9 +1,6 @@
 <template>
-  <!-- <v-data-table :columns="columns" :rows="campaigns"
-  :per-page="4" /> -->
-  <div>
-    <VDataTable></VDataTable>
-  </div>
+  <v-data-table :columns="columns" :rows="campaigns"
+  :per-page="4" name="max" />
 </template>
 
 <script>
@@ -27,7 +24,7 @@
             name: "Start Date",
             align: "left",
             formatValue(value) {
-              return format(value, "DDDD MMMM YYYY");
+              return format(value, "do MMMM yyyy");
             },
           },
           {
