@@ -72,6 +72,26 @@
             startDate: new Date(2019, 0, 10),
             sales: 8096,
           },
+                    {
+            code: "CAM8",
+            startDate: new Date(2019, 2, 9),
+            sales: 11203,
+          },
+          {
+            code: "CAM9",
+            startDate: new Date(2019, 0, 1),
+            sales: 123,
+          },
+          {
+            code: "CAM10",
+            startDate: new Date(2019, 0, 15),
+            sales: 0,
+          },
+          {
+            code: "CAM11",
+            startDate: new Date(2019, 0, 10),
+            sales: 8096,
+          },
         ],
       }
     }
